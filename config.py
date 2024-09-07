@@ -19,7 +19,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002249418205"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002026477147"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "10800")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "259200")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
@@ -58,9 +58,9 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "<b>❌Don't Send Me Messages Directly I'm Only A File Sharing Bot!</b>"
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention}‼️\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From A Special Link.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention}‼️\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From A Special Link.🔗</b>")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Welcome, {mention} !!</b><i> To continue, please subscribe to our channel ‼️</i></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Hello, {mention}👋</b><i> To continue, please subscribe to our channel 🙏</i></b>")
 
 
 
